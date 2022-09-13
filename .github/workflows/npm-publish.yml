@@ -16,9 +16,6 @@ jobs:
           node-version: '16.x'
           registry-url: 'https://registry.npmjs.org/'
           scope: '@u-koma'
-          always-auth : true
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NODE_AUTH_TOKEN }}
       - name: package info
         run: npm view @u-koma/npm-publish-test
       - run: npm publish --access=public
