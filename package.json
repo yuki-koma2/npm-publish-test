@@ -1,5 +1,5 @@
 {
-  "name": "npm-publish-test",
+  "name": "@u-koma/npm-publish-test",
   "version": "1.0.0",
   "description": "this is a package for practice",
   "main": "index.js",
