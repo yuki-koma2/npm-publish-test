@@ -22,5 +22,5 @@ jobs:
       - name: package info
         run: npm view @u-koma/npm-publish-test
       - run: npm publish --access public
-#        env:
-#          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN_PRD }}
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN_PRD }}
