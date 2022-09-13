@@ -10,6 +10,9 @@
     "type": "git",
     "url": "git+https://github.com/yuki-koma2/npm-publish-test.git"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "keywords": [],
   "author": "u-koma",
   "license": "ISC",
